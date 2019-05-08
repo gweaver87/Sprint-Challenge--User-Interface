@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +143,111 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: baseline;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+header nav {
+    display: inline-block;
+    margin-left: 62px;
+    vertical-align: text;
+
+}
+
+header nav a {
+    margin-left: 60px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.contentBox{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	border-top: black dashed 1px;
+
+    width: 100%;
+}
+
+.contentBox1{
+	margin: 20px 2%;
+	width: 45%;
+    vertical-align: top;
+    border-bottom: black dashed 1px;
+}
+
+.contentBox2{
+	margin: 20px 2%;
+	width: 45%;
+    vertical-align: top;
+    border-bottom: black dashed 1px;
+}
+
+.contentBox3{
+	margin: 20px 2%;
+	width: 45%;
+    vertical-align: top;
+    border-bottom: black dashed 1px;
+}
+
+.contentBox4{
+	margin: 20px 2%;
+	width: 45%;
+    vertical-align: top;
+    border-bottom: black dashed 1px;
+}
+
+ p{
+    font-size: 15px;
+    font: bold;
+}
+
+.contentBox h2{
+    font-size: 24px;
+}
+
+button{
+    background-color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 15px;
+}
+
+.aboutContent{
+    margin: 10px;
+    font-size: 24px;
+}
+
+.aboutContent p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.aboutContent h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.Ending{
+    margin: 8px;
+}
+
+.Ending h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Ending p{
+    font-size: 15px;
+    margin-bottom: 17px;
+
 }
